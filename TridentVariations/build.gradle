@@ -1,0 +1,121 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+}
+
+version = '1.0'
+group = 'com.pradone.tridentvariations'
+
+base {
+    archivesName ='tridentvariations'
+}
+
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+minecraft {
+    mappings channel: 'Official', version: '1.20.2'  
+    copyIdeResources = true
+    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            
+            mods {
+                "${tridentvariations}" {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        client {
+            property 'forge.enabledGameTestNamespaces', 'tridentvariations'
+        }
+
+        server {
+            property 'forge.enabledGameTestNamespaces', 'tridentvariations'
+            args '--nogui'
+        }
+
+        gameTestServer {
+            property 'forge.enabledGameTestNamespaces', 'tridentvariations'
+        }
+
+        data {
+            workingDirectory project.file('run-data')
+            args '--mod', 'tridentvariations', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version: '1.20.2',
+            minecraft_version_range: [1.20.2,1.21),
+            forge_version: '48.1.0',
+            forge_version_range: [48.0),
+            loader_version_range: 'nothinyet',
+            mod_id: 'tridentvariations',
+            mod_name: 'tridentvariations',
+            mod_license: 'nothinyet',
+            mod_version: '1.0',
+            mod_authors: 'Pradone', 'Caio',
+            mod_description: 'a mod that include a several of trident variantions',
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties + [project: project]
+    }
+}
+
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+                'Specification-Title'     : 'tridentvariations',
+                'Specification-Vendor'    : 'Pradone', 'Caio',
+                'Specification-Version'   : '1',
+                'Implementation-Title'    : project.name,
+                'Implementation-Version'  : project.jar.archiveVersion,
+                'Implementation-Vendor'   : 'Pradone', 'Caio',
+                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+
+
+    finalizedBy 'reobfJar'
+}
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
