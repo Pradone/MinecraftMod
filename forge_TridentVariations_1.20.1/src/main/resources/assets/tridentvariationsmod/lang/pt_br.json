@@ -1,6 +1,6 @@
 {
-  "item.tridentvariationsmod.diamondrite": "Diamanterita",
-  "item.tridentvariationsmod.emeraldrite": "Esmeralderita",
+  "item.tridentvariationsmod.diamondrite_ingot": "Barra de Diamanterita",
+  "item.tridentvariationsmod.emeraldrite_ingot": "Barra de Esmeralderita",
 
   "creativetab.trident_variations_tab": "Trident Variations"
 }

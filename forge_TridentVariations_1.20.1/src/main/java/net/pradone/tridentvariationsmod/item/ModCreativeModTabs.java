@@ -14,11 +14,11 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TridentVariationsMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab>  TRIDENT_VARIATIONS_TAB = CREATIVE_MODE_TABS.register("trident_variations_tab",
-            () -> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.DIAMONDRITE.get()))
+            () -> CreativeModeTab.builder().icon(()-> new ItemStack(Moditems.DIAMONDRITE_INGOT.get()))
                     .title(Component.translatable("creativetab.trident_variations_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(Moditems.DIAMONDRITE.get());
-                        pOutput.accept(Moditems.EMERALDRITE.get());
+                        pOutput.accept(Moditems.DIAMONDRITE_INGOT.get());
+                        pOutput.accept(Moditems.EMERALDRITE_INGOT.get());
 
                     })
                     .build());

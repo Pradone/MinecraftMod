@@ -11,10 +11,10 @@ public class Moditems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TridentVariationsMod.MOD_ID);
 
-    public static final RegistryObject<Item> DIAMONDRITE = ITEMS.register("diamondrite",
+    public static final RegistryObject<Item> DIAMONDRITE_INGOT = ITEMS.register("diamondrite_ingot",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> EMERALDRITE = ITEMS.register("emeraldrite",
+    public static final RegistryObject<Item> EMERALDRITE_INGOT = ITEMS.register("emeraldrite_ingot",
             () -> new Item(new Item.Properties()));
 
 
