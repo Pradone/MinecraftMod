@@ -17,6 +17,12 @@ public class Moditems {
     public static final RegistryObject<Item> EMERALDRITE_INGOT = ITEMS.register("emeraldrite_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PINK_GOLD_INGOT = ITEMS.register("pink_gold_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> WHITE_GOLD_INGOT = ITEMS.register("white_gold_ingot",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {

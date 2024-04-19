@@ -19,6 +19,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(Moditems.DIAMONDRITE_INGOT.get());
                         pOutput.accept(Moditems.EMERALDRITE_INGOT.get());
+                        pOutput.accept(Moditems.PINK_GOLD_INGOT.get());
+                        pOutput.accept(Moditems.WHITE_GOLD_INGOT.get());
 
                     })
                     .build());

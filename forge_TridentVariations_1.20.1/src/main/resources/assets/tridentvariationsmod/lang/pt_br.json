@@ -1,6 +1,8 @@
 {
   "item.tridentvariationsmod.diamondrite_ingot": "Barra de Diamanterita",
   "item.tridentvariationsmod.emeraldrite_ingot": "Barra de Esmeralderita",
+  "item.tridentvariationsmod.pink_gold_ingot": "Barra de Ouro Rosé",
+  "item.tridentvariationsmod.white_gold_ingot": "Barra de Ouro Branco",
 
   "creativetab.trident_variations_tab": "Trident Variations"
 }
