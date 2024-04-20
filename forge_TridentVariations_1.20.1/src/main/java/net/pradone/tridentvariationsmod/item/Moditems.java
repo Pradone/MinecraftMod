@@ -23,6 +23,12 @@ public class Moditems {
     public static final RegistryObject<Item> WHITE_GOLD_INGOT = ITEMS.register("white_gold_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ROSY_AMALGAMATION = ITEMS.register("rosy_amalgamation",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PALE_AMALGAMATION = ITEMS.register("pale_amalgamation",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {

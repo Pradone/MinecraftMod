@@ -3,6 +3,12 @@
   "item.tridentvariationsmod.emeraldrite_ingot": "Barra de Esmeralderita",
   "item.tridentvariationsmod.pink_gold_ingot": "Barra de Ouro Rosé",
   "item.tridentvariationsmod.white_gold_ingot": "Barra de Ouro Branco",
+  "item.tridentvariationsmod.pale_amalgamation": "Amalgama Pálida",
+  "item.tridentvariationsmod.rosy_amalgamation": "Amalgama Rosada",
+
+  "block.tridentvariationsmod.white_gold_block": "Bloco de Ouro Branco",
+  "block.tridentvariationsmod.pink_gold_block": "Bloco de Ouro Rosé",
+  "block.tridentvariationsmod.butijao": "Butijão",
 
   "creativetab.trident_variations_tab": "Trident Variations"
 }

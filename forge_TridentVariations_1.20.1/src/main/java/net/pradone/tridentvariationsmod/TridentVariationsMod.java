@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.pradone.tridentvariationsmod.block.ModBlocks;
 import net.pradone.tridentvariationsmod.item.ModCreativeModTabs;
 import net.pradone.tridentvariationsmod.item.Moditems;
 import org.slf4j.Logger;
@@ -31,6 +32,7 @@ public class TridentVariationsMod {
         ModCreativeModTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
+        ModBlocks.register((modEventBus));
 
         modEventBus.addListener(this::commonSetup);
 

@@ -3,6 +3,12 @@
   "item.tridentvariationsmod.emeraldrite_ingot": "Emeraldrite Ingot",
   "item.tridentvariationsmod.pink_gold_ingot": "Pink Gold Ingot",
   "item.tridentvariationsmod.white_gold_ingot": "White Gold Ingot",
+  "item.tridentvariationsmod.pale_amalgamation": "Pale Amalgamation",
+  "item.tridentvariationsmod.rosy_amalgamation": "Rosy Amalgamation",
+
+  "block.tridentvariationsmod.white_gold_block": "Block of White Gold",
+  "block.tridentvariationsmod.pink_gold_block": "Block of Pink Gold",
+  "block.tridentvariationsmod.butijao": "Butijão",
 
   "creativetab.trident_variations_tab": "Trident Variations"
 }

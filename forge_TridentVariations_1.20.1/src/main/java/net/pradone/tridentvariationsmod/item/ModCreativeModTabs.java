@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.pradone.tridentvariationsmod.TridentVariationsMod;
+import net.pradone.tridentvariationsmod.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -21,6 +22,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(Moditems.EMERALDRITE_INGOT.get());
                         pOutput.accept(Moditems.PINK_GOLD_INGOT.get());
                         pOutput.accept(Moditems.WHITE_GOLD_INGOT.get());
+                        pOutput.accept(Moditems.ROSY_AMALGAMATION.get());
+                        pOutput.accept(Moditems.PALE_AMALGAMATION.get());
+
+                        pOutput.accept(ModBlocks.WHITE_GOLD_BLOCK.get());
+                        pOutput.accept(ModBlocks.PINK_GOLD_BLOCK.get());
+                        pOutput.accept(ModBlocks.BUTIJAO.get());
 
                     })
                     .build());
