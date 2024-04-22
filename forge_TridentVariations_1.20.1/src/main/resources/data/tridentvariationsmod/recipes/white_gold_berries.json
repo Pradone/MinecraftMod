@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tridentvariationsmod:white_gold_nugget"
+    },
+    "S": {
+      "item": "minecraft:sweet_berries"
+}
+  },
+  "result": {
+    "item": "tridentvariationsmod:white_gold_berries"
+  },
+  "show_notification": true
+}

@@ -49,10 +49,8 @@ public class TridentVariationsMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        //if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-          //  event.accept(Moditems.DIAMONDRITE);
-            //event.accept(Moditems.EMERALDRITE);
-        //}
+            //ADICIONAR COISAS NA PÁGINA DO CRIATIVO PADRÃO
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

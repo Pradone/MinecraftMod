@@ -3,6 +3,8 @@
   "item.tridentvariationsmod.emeraldrite_ingot": "Barra de Esmeralderita",
   "item.tridentvariationsmod.pink_gold_ingot": "Barra de Ouro Rosé",
   "item.tridentvariationsmod.white_gold_ingot": "Barra de Ouro Branco",
+  "item.tridentvariationsmod.white_gold_nugget": "Pepita de Ouro Branco",
+  "item.tridentvariationsmod.pink_gold_nugget": "Pepita de Ouro Rosé",
   "item.tridentvariationsmod.pale_amalgamation": "Amalgama Pálida",
   "item.tridentvariationsmod.rosy_amalgamation": "Amalgama Rosada",
 
@@ -10,7 +12,8 @@
   "block.tridentvariationsmod.pink_gold_block": "Bloco de Ouro Rosé",
   "block.tridentvariationsmod.butijao": "Butijão",
 
-  "item.tridentvariationsmod.white_golden_apple": "Maçã de Ouro Branco",
+  "item.tridentvariationsmod.white_gold_berries": "Frutas Ouro Branco",
+  "item.tridentvariationsmod.pink_gold_berries": "Frutas Ouro Rosé",
 
   "creativetab.trident_variations_tab": "Trident Variations"
 }

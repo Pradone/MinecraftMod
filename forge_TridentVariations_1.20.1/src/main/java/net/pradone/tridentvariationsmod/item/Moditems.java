@@ -32,10 +32,18 @@ public class Moditems {
     public static final RegistryObject<Item> PALE_AMALGAMATION = ITEMS.register("pale_amalgamation",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> WHITE_GOLD_NUGGET = ITEMS.register("white_gold_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PINK_GOLD_NUGGET = ITEMS.register("pink_gold_nugget",
+            () -> new Item(new Item.Properties()));
 
 
-    public static final RegistryObject<Item> WHITE_GOLDEN_APPLE = ITEMS.register("white_golden_apple",
-            () -> new Item(new Item.Properties().food(ModFood.WHITE_GOLDEN_APPLE)));
+    public static final RegistryObject<Item> WHITE_GOLD_BERRIES = ITEMS.register("white_gold_berries",
+            () -> new Item(new Item.Properties().food(ModFood.WHITE_GOLD_BERRIES)));
+
+    public static final RegistryObject<Item> PINK_GOLD_BERRIES = ITEMS.register("pink_gold_berries",
+            () -> new Item(new Item.Properties().food(ModFood.PINK_GOLD_BERRIES)));
 
 
 
