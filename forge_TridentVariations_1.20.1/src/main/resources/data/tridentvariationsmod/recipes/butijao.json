@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SRS",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:copper_ingot"
+    },
+    "R": {
+      "item": "minecraft:bone_meal"
+    },
+    "C": {
+      "item": "minecraft:rotten_flesh"
+    }
+
+  },
+  "result": {
+    "item": "tridentvariationsmod:butijao"
+  },
+  "show_notification": true
+}

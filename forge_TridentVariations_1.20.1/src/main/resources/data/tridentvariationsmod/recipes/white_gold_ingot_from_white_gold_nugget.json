@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tridentvariationsmod:white_gold_nugget"
+    }
+  },
+  "result": {
+    "item": "tridentvariationsmod:white_gold_ingot"
+  },
+  "show_notification": true
+}

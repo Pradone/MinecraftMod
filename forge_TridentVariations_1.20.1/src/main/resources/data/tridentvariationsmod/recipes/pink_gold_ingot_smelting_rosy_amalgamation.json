@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "pink_gold_ingot",
+  "ingredient": {
+    "item": "tridentvariationsmod:rosy_amalgamation"
+  },
+  "result": "tridentvariationsmod:pink_gold_ingot"
+}
