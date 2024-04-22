@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tridentvariationsmod:block/white_gold_block"
+  }
+}

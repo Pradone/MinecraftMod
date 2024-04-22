@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tridentvariationsmod:pink_gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "tridentvariationsmod:pink_gold_nugget",
+    "count": 9
+  }
+}
