@@ -29,6 +29,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.PINK_GOLD_BLOCK.get());
                         pOutput.accept(ModBlocks.BUTIJAO.get());
 
+                        pOutput.accept(Moditems.WHITE_GOLDEN_APPLE.get());
+
+
                     })
                     .build());
 

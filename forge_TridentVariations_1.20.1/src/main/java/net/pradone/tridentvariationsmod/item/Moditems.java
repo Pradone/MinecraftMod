@@ -1,7 +1,10 @@
 package net.pradone.tridentvariationsmod.item;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.BellBlock;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -28,6 +31,15 @@ public class Moditems {
 
     public static final RegistryObject<Item> PALE_AMALGAMATION = ITEMS.register("pale_amalgamation",
             () -> new Item(new Item.Properties()));
+
+
+
+    public static final RegistryObject<Item> WHITE_GOLDEN_APPLE = ITEMS.register("white_golden_apple",
+            () -> new Item(new Item.Properties().food(ModFood.WHITE_GOLDEN_APPLE)));
+
+
+
+
 
 
 
