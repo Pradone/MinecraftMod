@@ -28,6 +28,7 @@ public class TridentVariationsMod {
     public TridentVariationsMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
