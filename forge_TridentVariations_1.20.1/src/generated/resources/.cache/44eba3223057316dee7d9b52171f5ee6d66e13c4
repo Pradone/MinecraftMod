@@ -1,10 +1,7 @@
-// 1.20.1	2024-04-22T18:21:54.1396678	Block States: tridentvariationsmod
-fd8204b3512cc81b8dd665ab32d59162efcdb796 assets/tridentvariationsmod/blockstates/butijao.json
+// 1.20.1	2024-04-23T23:48:15.9224724	Block States: tridentvariationsmod
 8652227df8453851c6894eb984ae70e63b1abc9e assets/tridentvariationsmod/blockstates/pink_gold_block.json
 d227718544c12b4570f11bc52f69e14817006bc0 assets/tridentvariationsmod/blockstates/white_gold_block.json
-e029e2cffc3fbce8ab5d635d30beb58386dc002f assets/tridentvariationsmod/models/block/butijao.json
 4493017fb98421741868ad85e5f96c0a9025c03b assets/tridentvariationsmod/models/block/pink_gold_block.json
 0e50b16bc89b5140910714b837ff5e3ce2821183 assets/tridentvariationsmod/models/block/white_gold_block.json
-c7283de971b6ee5f4f51d1521614092652ca9526 assets/tridentvariationsmod/models/item/butijao.json
 36c7033a39d2586caf21d7ad3722e3bc8d2874d9 assets/tridentvariationsmod/models/item/pink_gold_block.json
 e4a939d838af676ba0d637fcc5de6042e9346723 assets/tridentvariationsmod/models/item/white_gold_block.json

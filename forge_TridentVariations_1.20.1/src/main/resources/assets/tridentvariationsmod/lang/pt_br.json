@@ -8,12 +8,22 @@
   "item.tridentvariationsmod.pale_amalgamation": "Amalgama Pálida",
   "item.tridentvariationsmod.rosy_amalgamation": "Amalgama Rosada",
 
+
   "block.tridentvariationsmod.white_gold_block": "Bloco de Ouro Branco",
   "block.tridentvariationsmod.pink_gold_block": "Bloco de Ouro Rosé",
   "block.tridentvariationsmod.butijao": "Butijão",
 
+
   "item.tridentvariationsmod.white_gold_berries": "Frutas Ouro Branco",
   "item.tridentvariationsmod.pink_gold_berries": "Frutas Ouro Rosé",
+
+
+  "item.tridentvariationsmod.white_gold_pickaxe": "Picareta de Ouro Branco",
+  "item.tridentvariationsmod.white_gold_axe": "Machado de Ouro Branco",
+  "item.tridentvariationsmod.white_gold_shovel": "Pá de Ouro Branco",
+  "item.tridentvariationsmod.white_gold_hoe": "Enxchada de Ouro Branco",
+
+  "item.tridentvariationsmod.pink_gold_rapier": "Rapieira de Ouro Rosé",
 
   "creativetab.trident_variations_tab": "Trident Variations"
 }

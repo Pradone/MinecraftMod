@@ -21,7 +21,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.PINK_GOLD_BLOCK);
         blockWithItem(ModBlocks.WHITE_GOLD_BLOCK);
 
-        blockWithItem(ModBlocks.BUTIJAO);
 
     }
 

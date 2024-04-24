@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " S ",
+    " S ",
+    "$#$"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "tridentvariationsmod:pink_gold_ingot"
+    },
+    "$": {
+      "item": "tridentvariationsmod:pink_gold_nugget"
+    }
+  },
+  "result": {
+    "item": "tridentvariationsmod:pink_gold_rapier"
+  },
+  "show_notification": true
+}

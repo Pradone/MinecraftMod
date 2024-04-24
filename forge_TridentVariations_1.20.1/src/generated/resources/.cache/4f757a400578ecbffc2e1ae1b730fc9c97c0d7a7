@@ -1,4 +1,4 @@
-// 1.20.1	2024-04-22T18:21:54.1391585	Item Models: tridentvariationsmod
+// 1.20.1	2024-04-24T00:25:31.9836734	Item Models: tridentvariationsmod
 e07ac2feaca61e3a903409f9b037914fd089901f assets/tridentvariationsmod/models/item/diamondrite_ingot.json
 5d37ddb9d87791631c88e21c1730b605d5b330d0 assets/tridentvariationsmod/models/item/emeraldrite_ingot.json
 8c00be93611026f4f4797c1fb3612e01a9d38898 assets/tridentvariationsmod/models/item/pale_amalgamation.json
@@ -6,6 +6,10 @@ e07ac2feaca61e3a903409f9b037914fd089901f assets/tridentvariationsmod/models/item
 f78e8180e8c36da38ed18140b3786a205db2fd17 assets/tridentvariationsmod/models/item/pink_gold_ingot.json
 7f48d98fdcfd9dd0f22b70493b5fd54035a2107b assets/tridentvariationsmod/models/item/pink_gold_nugget.json
 29322101eef2a68fb29ff7f38806351061a86888 assets/tridentvariationsmod/models/item/rosy_amalgamation.json
+b9ebd0064b64bbac3e8853b36295d06a67ced0c9 assets/tridentvariationsmod/models/item/white_gold_axe.json
 8841cc957cce97314a74cfbfd716d094bd02c85b assets/tridentvariationsmod/models/item/white_gold_berries.json
+3ac02041a91b3ddeea014d3d1336a298de87a9d1 assets/tridentvariationsmod/models/item/white_gold_hoe.json
 f3f0b8d12188c3097f4b4aa20cf441474f67476f assets/tridentvariationsmod/models/item/white_gold_ingot.json
 32bf7da2776c26da0be12aad0eab24ce97079bc2 assets/tridentvariationsmod/models/item/white_gold_nugget.json
+b5b81e3ba5a61408fcbb34ef4917d824afc5b1c4 assets/tridentvariationsmod/models/item/white_gold_pickaxe.json
+6ab164bf70149b39fd22f190e30f4d276e94961b assets/tridentvariationsmod/models/item/white_gold_shovel.json

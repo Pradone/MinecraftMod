@@ -31,6 +31,13 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.PINK_GOLD_BLOCK.get());
                         pOutput.accept(ModBlocks.BUTIJAO.get());
 
+                        pOutput.accept(ModItems.WHITE_GOLD_PICKAXE.get());
+                        pOutput.accept(ModItems.WHITE_GOLD_AXE.get());
+                        pOutput.accept(ModItems.WHITE_GOLD_SHOVEL.get());
+                        pOutput.accept(ModItems.WHITE_GOLD_HOE.get());
+
+                        pOutput.accept(ModItems.PINK_GOLD_RAPIER.get());
+
                         //TridentItem
 
                         //ThrownTrident

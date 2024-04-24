@@ -29,6 +29,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.PINK_GOLD_BERRIES);
         simpleItem(ModItems.WHITE_GOLD_BERRIES);
+
+        handheldItem(ModItems.WHITE_GOLD_PICKAXE);
+        handheldItem(ModItems.WHITE_GOLD_AXE);
+        handheldItem(ModItems.WHITE_GOLD_SHOVEL);
+        handheldItem(ModItems.WHITE_GOLD_HOE);
     }
 
 
