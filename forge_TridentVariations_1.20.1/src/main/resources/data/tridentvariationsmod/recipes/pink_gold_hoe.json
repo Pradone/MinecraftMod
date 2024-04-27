@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "tridentvariationsmod:pink_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "tridentvariationsmod:pink_gold_hoe"
+  },
+  "show_notification": true
+}

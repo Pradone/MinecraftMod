@@ -35,7 +35,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.WHITE_GOLD_AXE.get());
                         pOutput.accept(ModItems.WHITE_GOLD_SHOVEL.get());
                         pOutput.accept(ModItems.WHITE_GOLD_HOE.get());
+                        pOutput.accept(ModItems.PINK_GOLD_PICKAXE.get());
+                        pOutput.accept(ModItems.PINK_GOLD_AXE.get());
+                        pOutput.accept(ModItems.PINK_GOLD_SHOVEL.get());
+                        pOutput.accept(ModItems.PINK_GOLD_HOE.get());
 
+                        pOutput.accept(ModItems.WHITE_GOLD_RAPIER.get());
                         pOutput.accept(ModItems.PINK_GOLD_RAPIER.get());
 
                         //TridentItem
@@ -46,6 +51,7 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.WHITE_GOLD_BERRIES.get());
                         pOutput.accept(ModItems.PINK_GOLD_BERRIES.get());
+
 
 
                     })

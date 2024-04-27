@@ -51,7 +51,7 @@ public class ModItems {
             () -> new PickaxeItem(ModToolTiers.WHITE_GOLD, 1,-2.6F, new Item.Properties()));
 
     public static RegistryObject<Item> WHITE_GOLD_AXE = ITEMS.register("white_gold_axe",
-            () -> new AxeItem(ModToolTiers.WHITE_GOLD, 6.0F,-3.0F, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.WHITE_GOLD, 6.0F,-2.9F, new Item.Properties()));
 
     public static RegistryObject<Item> WHITE_GOLD_SHOVEL = ITEMS.register("white_gold_shovel",
             () -> new ShovelItem(ModToolTiers.WHITE_GOLD, 1.5F,-2.6F, new Item.Properties()));
@@ -59,14 +59,25 @@ public class ModItems {
     public static RegistryObject<Item> WHITE_GOLD_HOE = ITEMS.register("white_gold_hoe",
             () -> new HoeItem(ModToolTiers.WHITE_GOLD, -2,-0.9F, new Item.Properties()));
 
+    public static RegistryObject<Item> PINK_GOLD_PICKAXE = ITEMS.register("pink_gold_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.PINK_GOLD, 1,-2.6F, new Item.Properties()));
+
+    public static RegistryObject<Item> PINK_GOLD_AXE = ITEMS.register("pink_gold_axe",
+            () -> new AxeItem(ModToolTiers.PINK_GOLD, 6.0F,-3.0F, new Item.Properties()));
+
+    public static RegistryObject<Item> PINK_GOLD_SHOVEL = ITEMS.register("pink_gold_shovel",
+            () -> new ShovelItem(ModToolTiers.PINK_GOLD, 1.5F,-2.6F, new Item.Properties()));
+
+    public static RegistryObject<Item> PINK_GOLD_HOE = ITEMS.register("pink_gold_hoe",
+            () -> new HoeItem(ModToolTiers.PINK_GOLD, -2,-0.9F, new Item.Properties()));
+
 
     public static RegistryObject<Item> PINK_GOLD_RAPIER = ITEMS.register("pink_gold_rapier",
-            () -> new SwordItem(ModToolTiers.PINK_GOLD,3, -2.0F, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.PINK_GOLD,2, -2.0F, new Item.Properties()));
 
-
-
-
-
+    public static RegistryObject<Item> WHITE_GOLD_RAPIER = ITEMS.register("white_gold_rapier",
+            () -> new SwordItem(ModToolTiers.WHITE_GOLD,3, -2.0F, new Item.Properties()));
+    
 
 
 
