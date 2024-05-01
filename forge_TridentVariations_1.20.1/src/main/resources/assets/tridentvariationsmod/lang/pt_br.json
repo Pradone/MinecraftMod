@@ -28,8 +28,16 @@
   "item.tridentvariationsmod.pink_gold_hoe": "Enxada de Ouro Rosé",
 
   "item.tridentvariationsmod.white_gold_rapier": "Rapieira de Ouro Branco",
-
   "item.tridentvariationsmod.pink_gold_rapier": "Rapieira de Ouro Rosé",
+
+  "item.tridentvariationsmod.white_gold_helmet": "Capacete de Ouro Branco",
+  "item.tridentvariationsmod.white_gold_chestplate": "Peitoral de Ouro Branco",
+  "item.tridentvariationsmod.white_gold_leggings": "Calças de Ouro Branco",
+  "item.tridentvariationsmod.white_gold_boots": "Botas de Ouro Branco",
+  "item.tridentvariationsmod.pink_gold_helmet": "Capacete de Ouro Rosé",
+  "item.tridentvariationsmod.pink_gold_chestplate": "Peitoral de Ouro Rosé",
+  "item.tridentvariationsmod.pink_gold_leggings": "Calças de Ouro Rosé",
+  "item.tridentvariationsmod.pink_gold_boots": "Botas de Ouro Rosé",
 
   "creativetab.trident_variations_tab": "Trident Variations"
 }

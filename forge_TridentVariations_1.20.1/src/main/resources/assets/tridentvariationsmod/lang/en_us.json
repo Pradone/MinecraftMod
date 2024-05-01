@@ -30,6 +30,15 @@
   "item.tridentvariationsmod.white_gold_rapier": "White Gold Rapier",
   "item.tridentvariationsmod.pink_gold_rapier": "Pink Gold Rapier",
 
+  "item.tridentvariationsmod.white_gold_helmet": "White Gold Helmet",
+  "item.tridentvariationsmod.white_gold_chestplate": "White Gold Chestplate",
+  "item.tridentvariationsmod.white_gold_leggings": "White Gold Leggings",
+  "item.tridentvariationsmod.white_gold_boots": "White Gold Boots",
+  "item.tridentvariationsmod.pink_gold_helmet": "Pink Gold Helmet",
+  "item.tridentvariationsmod.pink_gold_chestplate": "Pink Gold Chestplate",
+  "item.tridentvariationsmod.pink_gold_leggings": "Pink Gold Leggings",
+  "item.tridentvariationsmod.pink_gold_boots": "Pink Gold Boots",
+
 
   "creativetab.trident_variations_tab": "Trident Variations"
 }

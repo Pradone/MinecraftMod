@@ -43,6 +43,15 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.WHITE_GOLD_RAPIER.get());
                         pOutput.accept(ModItems.PINK_GOLD_RAPIER.get());
 
+                        pOutput.accept(ModItems.WHITE_GOLD_HELMET.get());
+                        pOutput.accept(ModItems.WHITE_GOLD_CHESPLATE.get());
+                        pOutput.accept(ModItems.WHITE_GOLD_LEGGINGS.get());
+                        pOutput.accept(ModItems.WHITE_GOLD_BOOTS.get());
+                        pOutput.accept(ModItems.PINK_GOLD_HELMET.get());
+                        pOutput.accept(ModItems.PINK_GOLD_CHESPLATE.get());
+                        pOutput.accept(ModItems.PINK_GOLD_LEGGINGS.get());
+                        pOutput.accept(ModItems.PINK_GOLD_BOOTS.get());
+
                         //TridentItem
 
                         //ThrownTrident

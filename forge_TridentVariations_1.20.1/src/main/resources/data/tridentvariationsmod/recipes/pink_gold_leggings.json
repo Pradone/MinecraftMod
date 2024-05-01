@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "tridentvariationsmod:pink_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "tridentvariationsmod:pink_gold_leggings"
+  },
+  "show_notification": true
+}

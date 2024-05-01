@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pradone.tridentvariationsmod.TridentVariationsMod;
+import net.pradone.tridentvariationsmod.item.custom.ModArmorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -79,6 +80,30 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.WHITE_GOLD,3, -2.0F, new Item.Properties()));
     
 
+    //Armor
+    public static RegistryObject<Item> WHITE_GOLD_HELMET = ITEMS.register("white_gold_helmet",
+            () -> new ArmorItem(ModArmorMaterials.WHITE_GOLD, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static RegistryObject<Item> WHITE_GOLD_CHESPLATE = ITEMS.register("white_gold_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.WHITE_GOLD, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+
+    public static RegistryObject<Item> WHITE_GOLD_LEGGINGS = ITEMS.register("white_gold_leggings",
+            () -> new ArmorItem(ModArmorMaterials.WHITE_GOLD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+
+    public static RegistryObject<Item> WHITE_GOLD_BOOTS = ITEMS.register("white_gold_boots",
+            () -> new ArmorItem(ModArmorMaterials.WHITE_GOLD, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static RegistryObject<Item> PINK_GOLD_HELMET = ITEMS.register("pink_gold_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.PINK_GOLD, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static RegistryObject<Item> PINK_GOLD_CHESPLATE = ITEMS.register("pink_gold_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.PINK_GOLD, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+
+    public static RegistryObject<Item> PINK_GOLD_LEGGINGS = ITEMS.register("pink_gold_leggings",
+            () -> new ArmorItem(ModArmorMaterials.PINK_GOLD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+
+    public static RegistryObject<Item> PINK_GOLD_BOOTS = ITEMS.register("pink_gold_boots",
+            () -> new ArmorItem(ModArmorMaterials.PINK_GOLD, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
